@@ -1,0 +1,164 @@
+@import url(https://fonts.googleapis.com/css?family=Ubuntu);
+@import "compass/css3";
+*{
+  padding: 0;
+  margin: 0;
+  font-family: 'Comfortaa', cursive;
+}
+
+body{
+  background-color: rgb(214, 229, 255);
+  background-image: linear-gradient(rgb(214, 229, 255), rgb(153, 190, 255));
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+/* My Nav Bar */
+#navbar{
+  position: fixed;
+  height: 40px;
+  width: 100%;
+  line-height: 40px;
+  z-index: 10;
+}
+#navbar ul{
+  float: right;
+  list-style: none;
+}
+#navbar ul li{
+  display: inline;
+}
+#navbar ul a{
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+  padding-right: 20px;
+}
+
+/* My Opening Section */
+#welcome-section{
+  height: 100vh;
+  text-align: center;
+}
+.center_box{
+  position: relative;
+  top: 30%;
+  display: block;
+  margin: auto;
+  width: 50%;
+  z-index: 1;
+}
+
+.center_box h1{
+    -webkit-animation: 2s ease 0s normal forwards 1 slide;
+    animation: 2s ease 0s normal forwards 1 slide;
+}
+
+.center_box h3{
+    opacity: 0;
+    -webkit-animation: 2s ease 1.5s normal forwards 1 slide;
+    animation: 2s ease 1.5s normal forwards 1 slide;
+}
+
+@keyframes slide{
+  0%{
+    opacity: 0;
+    width: 20%;
+  }
+  50%{
+    opacity: 0.3;
+  }
+  100%{
+    opacity: 1;
+    width: 100%;
+  }
+}
+
+/* My Project Portion */
+#projects{
+  padding-top: 50px;
+  min-height: 95vh;
+}
+
+#projects h1{
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.project_container{
+  padding: 0;
+  margin: 0;
+  
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  
+  flex-flow: row wrap;
+  justify-content: space-around;
+}
+
+.project_container a {
+  text-decoration: none;
+}
+
+/* Each Project Box */
+#box { 
+  margin-top: 5%;
+  height: 175px;
+  border-radius: 5px;
+}
+
+#box img {
+  width:250px;
+  border-radius: 5px;
+}
+
+#box :hover{
+    z-index: 2;
+    -webkit-transition: all 200ms ease-in;
+    -webkit-transform: scale(1.1);
+  
+    -ms-transition: all 200ms ease-in;
+    -ms-transform: scale(1.1);   
+  
+    -moz-transition: all 200ms ease-in;
+    -moz-transform: scale(1.1);
+  
+    transition: all 200ms ease-in;
+    transform: scale(1.1);
+}
+
+#box p {
+  font-weight: bolder;
+  text-align: center;
+  color: #000;
+}
+
+#about { 
+  padding-top: 50px;
+  height: 94vh;
+}
+#about h1 {
+  text-align: center;
+}
+#content-block{
+  padding: 10px 20px;
+  text-align: center;
+  font-size: 25px;
+  line-height: 1.5;
+}
+.flex-logo{
+  padding: 10px;
+}
+.flex-logo a{
+  padding-right: 10px;
+  text-decoration: none;
+}
+@media only screen and (max-width: 475px){
+  *{
+    font-size: 20px;
+  }
+}
