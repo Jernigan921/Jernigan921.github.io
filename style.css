@@ -1,9 +1,10 @@
-@import url(https://fonts.googleapis.com/css?family=Ubuntu);
+@import url('https://fonts.googleapis.com/css?family=Quicksand');
 @import "compass/css3";
+
 *{
   padding: 0;
   margin: 0;
-  font-family: 'Comfortaa', cursive;
+  font-family: 'Quicksand', sans-serif;
 }
 
 body{
@@ -41,6 +42,7 @@ body{
   height: 100vh;
   text-align: center;
 }
+
 .center_box{
   position: relative;
   top: 30%;
@@ -51,11 +53,13 @@ body{
 }
 
 .center_box h1{
+    font-size: 50px;
     -webkit-animation: 2s ease 0s normal forwards 1 slide;
     animation: 2s ease 0s normal forwards 1 slide;
 }
 
 .center_box h3{
+    font-size: 40px;
     opacity: 0;
     -webkit-animation: 2s ease 1.5s normal forwards 1 slide;
     animation: 2s ease 1.5s normal forwards 1 slide;
@@ -158,7 +162,5 @@ body{
   text-decoration: none;
 }
 @media only screen and (max-width: 475px){
-  *{
-    font-size: 20px;
-  }
+  
 }
