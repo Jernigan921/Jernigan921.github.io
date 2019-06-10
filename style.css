@@ -37,6 +37,11 @@ body{
   padding-right: 20px;
 }
 
+#navbar ul a:hover{
+  color: red;
+  font-size: 23px;
+}
+
 /* My Opening Section */
 #welcome-section{
   height: 100vh;
@@ -61,21 +66,16 @@ body{
 .center_box h3{
     font-size: 40px;
     opacity: 0;
-    -webkit-animation: 2s ease 1.5s normal forwards 1 slide;
-    animation: 2s ease 1.5s normal forwards 1 slide;
+    -webkit-animation: 2s ease 1s normal forwards 1 slide;
+    animation: 2s ease 1s normal forwards 1 slide;
 }
 
 @keyframes slide{
   0%{
     opacity: 0;
-    width: 20%;
-  }
-  50%{
-    opacity: 0.3;
   }
   100%{
     opacity: 1;
-    width: 100%;
   }
 }
 
