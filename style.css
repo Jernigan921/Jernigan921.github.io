@@ -145,22 +145,33 @@ body{
   padding-top: 50px;
   height: 94vh;
 }
+
 #about h1 {
   text-align: center;
 }
+
 #content-block{
   padding: 10px 20px;
   text-align: center;
   font-size: 25px;
   line-height: 1.5;
 }
+
 .flex-logo{
   padding: 10px;
 }
+
 .flex-logo a{
   padding-right: 10px;
   text-decoration: none;
 }
+
+#certifications {
+  width: 25%;
+}
+
 @media only screen and (max-width: 475px){
-  
+  #certifications {
+    width: 100%;
+  }
 }
