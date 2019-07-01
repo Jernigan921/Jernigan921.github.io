@@ -26,7 +26,7 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.7"
-     inkscape:cx="224.8096"
+     inkscape:cx="-7.3332571"
      inkscape:cy="256.78573"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
@@ -46,7 +46,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -56,14 +56,14 @@
      id="layer1"
      transform="translate(-14.434219,-58.775762)">
     <ellipse
-       style="opacity:1;vector-effect:none;fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:16.77826118;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.96984923"
+       style="opacity:1;vector-effect:none;fill:#c9af98;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:16.77826118;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.96984923"
        id="path818"
        cx="104.83814"
        cy="149.02303"
        rx="90.533928"
        ry="90.133018" />
     <path
-       style="opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:4.88746977;stroke-miterlimit:4;stroke-dasharray:none"
+       style="opacity:1;fill:#3a4660;fill-opacity:1;stroke:none;stroke-width:4.88746977;stroke-miterlimit:4;stroke-dasharray:none"
        d="M 104.99974,58.775762 A 90.565839,90.300399 0 0 0 14.434219,149.07619 90.565839,90.300399 0 0 0 90.633175,238.12295 V 175.26633 H 67.988559 v -26.25886 h 22.851316 v -21.78265 c 0,0 -2.541006,-42.556645 54.388415,-31.401188 v 22.514388 h -14.164 c 0,0 -10.42392,-0.26738 -12.09435,12.09384 v 18.50843 h 25.45788 l -4.27674,26.45988 h -20.84679 -0.2496 v 62.82407 a 90.565839,90.300399 0 0 0 76.51109,-89.14805 90.565839,90.300399 0 0 0 -90.56604,-90.300428 z"
        id="path880"
        inkscape:connector-curvature="0" />

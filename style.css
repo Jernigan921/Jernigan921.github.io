@@ -1,15 +1,23 @@
 @import url('https://fonts.googleapis.com/css?family=Quicksand');
 @import "compass/css3";
 
+:root {
+  --tan: #c9af98;
+  --peach: #ed8a63;
+  --frenchBlue: #3a4660;
+  --brownBonnet: #845007;
+}
+
 *{
   padding: 0;
   margin: 0;
   font-family: 'Quicksand', sans-serif;
+  color: var(--tan);
+  scroll-behavior: smooth;
 }
 
 body{
-  background-color: rgb(214, 229, 255);
-  background-image: linear-gradient(rgb(214, 229, 255), rgb(153, 190, 255));
+  background-color: var(--frenchBlue); /* rgb(214, 229, 255); - old*/
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
@@ -22,6 +30,7 @@ body{
   width: 100%;
   line-height: 40px;
   z-index: 10;
+  background-color: var(--frenchBlue);
 }
 #navbar ul{
   float: right;
@@ -32,13 +41,12 @@ body{
 }
 #navbar ul a{
   text-decoration: none;
-  color: black;
   font-size: 20px;
   padding-right: 20px;
 }
 
 #navbar ul a:hover{
-  color: red;
+  color: var(--peach);
   font-size: 23px;
 }
 
@@ -58,16 +66,21 @@ body{
 }
 
 .center_box h1{
-    font-size: 50px;
+    font-size: 7vw;
+    font-weight: bolder;
     -webkit-animation: 2s ease 0s normal forwards 1 slide;
     animation: 2s ease 0s normal forwards 1 slide;
 }
 
 .center_box h3{
-    font-size: 40px;
+    font-size: 4vw;
     opacity: 0;
     -webkit-animation: 2s ease 1s normal forwards 1 slide;
     animation: 2s ease 1s normal forwards 1 slide;
+}
+
+.center_box h3:hover {
+  cursor: pointer;
 }
 
 @keyframes slide{
@@ -88,16 +101,13 @@ body{
 #projects h1{
   text-align: center;
   padding-bottom: 20px;
+  color: var(--peach);
 }
 
 .project_container{
   padding: 0;
   margin: 0;
   
-  display: -webkit-box;
-  display: -moz-box;
-  display: -ms-flexbox;
-  display: -webkit-flex;
   display: flex;
   
   flex-flow: row wrap;
@@ -120,7 +130,7 @@ body{
   border-radius: 5px;
 }
 
-#box :hover{
+#box img:hover{
     z-index: 2;
     -webkit-transition: all 200ms ease-in;
     -webkit-transform: scale(1.1);
@@ -138,7 +148,8 @@ body{
 #box p {
   font-weight: bolder;
   text-align: center;
-  color: #000;
+  color: var(--peach);
+  
 }
 
 #about { 
@@ -167,10 +178,10 @@ body{
 }
 
 #certifications {
-  width: 25%;
+  width: 30%;
 }
 
-@media only screen and (max-width: 475px){
+@media only screen and (max-width: 600px){
   #certifications {
     width: 100%;
   }
