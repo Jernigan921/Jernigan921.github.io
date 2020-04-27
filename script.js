@@ -2,9 +2,8 @@
 let wordlist = [
     'web developer',
     'college student',
-    'graphic designer',
+    'digital designer',
     'photographer',
-    'audio engineer',
   ]
   
   function buildSlotItem (text) {
@@ -57,7 +56,7 @@ let wordlist = [
   
   
   /* This is for the photo section with the slideshow */
-  var slideIndex = 1;
+  var slideIndex = 3;
   showSlides(slideIndex);
   
   function plusSlides(n) {

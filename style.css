@@ -1,17 +1,19 @@
 @import url('https://fonts.googleapis.com/css?family=Quicksand');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
 @import "compass/css3";
 
 :root {
-  --tan: #c9af98;
-  --peach: #ed8a63;
-  --frenchBlue: #3a4660;
-  --brownBonnet: #845007;
+  --tan: #35402D;
+  --peach: #F27777;
+  --frenchBlue: #F2EDEB;
+  --brownBonnet: #D9AA8F;
 }
 
 *{
   padding: 0;
   margin: 0;
-  font-family: 'Quicksand', sans-serif;
+  font-family: 'Source Sans Pro', sans-serif;
   color: var(--tan);
   scroll-behavior: smooth;
   box-sizing: border-box;
@@ -128,7 +130,7 @@ body{
 #projects h1{
   text-align: center;
   padding-bottom: 20px;
-  color: var(--peach);
+  color: var(--tan);
 }
 
 .project_container{
@@ -188,11 +190,11 @@ body{
 }
 
 .slideshow-container {
-  padding-top: 25px;
+  padding-top: 10px;
   max-width: 1080px; /* This could lead to responsive problems */
   position: relative;
   margin: auto;
-  margin-top: 100px;
+  margin-top: 25px;
   height: 600px;
   overflow: hidden;
 }
@@ -288,7 +290,7 @@ body{
 }
 
 #content-block{
-  padding: 10px 10%;
+  padding: 10px 20%;
   text-align: center;
   font-size: 25px;
   line-height: 1.5;
@@ -315,6 +317,10 @@ body{
   
   .mySlides img {
     width: 100vw;
+  }
+
+  .slideshow-container{
+    height: 100%;
   }
   
   #certifications {
