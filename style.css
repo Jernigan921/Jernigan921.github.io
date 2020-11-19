@@ -135,7 +135,8 @@ body{
 
 .project_container{
   padding: 0;
-  margin: 0;
+  margin: 0 auto;
+  max-width: 80%;
   display: flex;
   flex-flow: row wrap;
   justify-content: space-around;
@@ -183,6 +184,8 @@ body{
 #photos {
   padding-top: 50px;
   min-height: 95vh;
+  max-width: 90vw;
+  margin: 0 auto;
 }
 
 #photos h1 {
@@ -190,13 +193,13 @@ body{
 }
 
 .slideshow-container {
-  padding-top: 10px;
   max-width: 1080px; /* This could lead to responsive problems */
   position: relative;
   margin: auto;
   margin-top: 25px;
   height: 600px;
   overflow: hidden;
+  border: 10px solid var(--tan);
 }
 
 .mySlides {
@@ -251,7 +254,7 @@ body{
   width: 15px;
   margin: 0 2px;
   background-color: #717171;
-  border-radius: 50%;
+  margin-top: 5px;
   display: inline-block;
   transition: background-color 0.6s ease;
 }
@@ -306,7 +309,7 @@ body{
 }
 
 #certifications {
-  width: 30%;
+  width: 45%;
 }
 
 /* Screens smaller than 800px */

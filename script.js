@@ -33,7 +33,7 @@ let wordlist = [
   
   /* Have an odd number of list and it will pass through each item in the given list. */
   function slotIndex(max) {
-      var randIndex = 4; // even for odd number list, odd for even number list
+      var randIndex = 5; // even for odd number list, odd for even number list
       return (randIndex > 0) ? randIndex : slotIndex(max);
   }
   
