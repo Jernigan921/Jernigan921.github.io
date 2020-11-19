@@ -33,6 +33,20 @@ nav a:hover {
     padding-top: 2%;
     padding-bottom: 2%;
 }
+.imageContainer {
+    position: relative;
+    height: 100%;
+}
+.contentImage {
+    max-width: 65%;
+}
+.imageContainer p{
+    position: absolute;
+    bottom: 10px;
+    color: #ffffff;
+    background-color: #00000055;
+    padding: 2px 2px 2px 20px;
+}
 .contentTitle {
     font-family: 'Raleway', sans-serif;
     padding-top: 1%;
@@ -42,10 +56,10 @@ nav a:hover {
     margin-left: 5%;
     font-family: 'Montserrat', sans-serif;
 }
+.contentBody li {
+    font-weight: bold;
+}
 .contentBody p{
     max-width: 60%;
     padding-left: 2%;
-}
-.contentImage {
-    max-width: 60%;
 }
