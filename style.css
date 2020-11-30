@@ -294,13 +294,15 @@ body{
 
 #content-block{
   padding: 10px 20%;
-  text-align: center;
   font-size: 25px;
   line-height: 1.5;
 }
 
 .flex-logo{
   padding: 10px;
+  position: relative;
+  margin: 0 auto;
+  width: 75%;
 }
 
 .flex-logo a{
@@ -309,6 +311,8 @@ body{
 }
 
 #certifications {
+  position: relative;
+  margin: 0 auto;
   width: 45%;
 }
 
