@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway&family=Righteous&display=swap');
 :root {
+    --lightPurple: #ddd4ff;
     --purple: #AE96FF;
     --darkPurple: #9A85E3;
     --white: #EDEAF4;
@@ -92,14 +93,13 @@ nav a {
 .manifestoContent {
     width: 80%;
     margin: 0 auto;
-    font-family: Roboto, sans-serif;
+    font-family: 'Raleway', sans-serif;
     font-size: 30px;
     color: var(--white);
 }
-.manifestoContent li{
-    font-weight: bold;
-}
 .manifestoContent p{
+    color: var(--lightPurple);
+    font-size: 27px;
     padding-bottom: 1%;
 }
 #designFlow{
