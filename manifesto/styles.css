@@ -77,7 +77,8 @@ nav a {
     z-index: 10;
 }
 #myManifesto {
-    height: 100vh;
+    min-height: 100vh;
+    height: 100%;
     background-color: var(--darkPurple);
     position: relative;
     z-index: 10;
@@ -116,4 +117,13 @@ nav a {
     height: 75%;
     margin: 0 auto;
     padding: 50px;
+}
+
+@media only screen and (max-width: 800px) {
+    .decorativeText{
+        font-size: 110px;
+    }
+    .manifestoContent {
+        font-size: 4vw;
+    }
 }
