@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Roboto:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway&family=Righteous&display=swap');
 :root {
     --purple: #AE96FF;
     --darkPurple: #9A85E3;
@@ -21,7 +21,7 @@ nav {
     background-color: var(--darkPurple);
     position: relative;
     z-index: 4;
-    width: 25%;
+    width: 10%;
     min-width: 225px;
     height: 100%;
 }
@@ -36,8 +36,8 @@ nav li {
 }
 nav a {
     color: var(--white);
-    font-family: Roboto, sans-serif;
-    font-size: 32px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 24px;
     text-decoration: none;
 }
 .square {
@@ -71,7 +71,7 @@ nav a {
     color: var(--white);
     position: absolute;
     text-align: left;
-    left: 3%;
+    left: 1%;
     top: 81%;
     font-size: 32px;
     z-index: 10;
