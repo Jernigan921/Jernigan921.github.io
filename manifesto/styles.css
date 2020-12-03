@@ -108,7 +108,7 @@ nav a {
     text-align: right;
 }
 #designFlow h1{
-    padding: 50px 25px 0 0;
+    padding: 2% 2% 0 0;
     font-family: 'Righteous', cursive;
     font-size: 5vw;
     color: var(--darkPurple);
@@ -116,7 +116,7 @@ nav a {
 .process {
     height: 75%;
     margin: 0 auto;
-    padding: 50px;
+    padding: 2%;
 }
 
 @media only screen and (max-width: 800px) {
